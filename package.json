@@ -1,0 +1,17 @@
+{
+  "name": "node-smtp-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.1.4",
+    "mailparser": "^2.1.0",
+    "smtp-server": "^3.3.0"
+  }
+}
