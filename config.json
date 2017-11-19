@@ -1,7 +1,7 @@
 {
     "port": 25,
-    "API_KEY": "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",
-    "SENDGRID_USER": "jasperdemoor",
+    "API_KEY": "INSERT SENDGRID API KEY",
+    "SENDGRID_USER": "INSERT_SENDGRID_USERNAME",
     "authentication": {
         "username": "root",
         "password": "root"
