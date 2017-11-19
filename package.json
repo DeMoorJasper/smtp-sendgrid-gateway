@@ -1,13 +1,17 @@
 {
   "name": "node-smtp-gateway",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple tool that redirects smtp calls to the sendgrid API.",
   "main": "index.js",
   "scripts": {
     "start": "node ./src/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["smtp", "sendgrid", "gateway", "adapter"],
+  "author": "Jasper De Moor",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/DeMoorJasper/smtp-sendgrid-gateway"
+  },
   "license": "ISC",
   "dependencies": {
     "@sendgrid/mail": "^6.1.4",
